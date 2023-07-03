@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ex2.css">
+  <title>dropdown</title>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      mojtaba <span class="kh" >kh</span>
+    </div>
+      <ul class="menu">
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li class="pages"><a href="">pages  <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </a>
+            <div class="dropdown1">
+                <ul>
+                  <li><a href="">pricing</a></li>
+                  <li><a href="">portfolio</a></li>
+                  <li class="team" ><a href=""> team   <i class="fa fa-caret-right" aria-hidden="true"></i>
+                  </a>
+                  <div class="dropdown-team">
+                    <ul>
+                      <li><a href="">team1</a></li>
+                      <li><a href="">team2</a></li>
+                      <li><a href="">team3</a></li>
+                      <li><a href="">team4</a></li>
+                    </ul>
+                  </div>
+                    </li>
+                  <li><a href="">faQ</a></li>
+                </ul>
+            </div>
+      
+      </li>
+        <li><a href="">blog</a></li>
+        <li><a href="">contact us</a></li>
+      </ul>
+  </div>
+  <div class="main">
+    <form action="">
+      <div>
+         name: <input type="text" placeholder="ex: Mojtaba" required>
+     </div>
+     <div>
+        family name:<input type="text" placeholder="ex:khorasani" required>
+     </div>
+     <div>
+          Email<input type="email" placeholder="ex:Email.com" required>
+      </div>
+     <div>
+      gender: <div><select name="" id="">
+         <option value="">male</option>
+          <option value="">female</option>
+          <option value="">rather not to say</option>
+        </select></div> 
+     </div>
+     <div class="btn">
+      <button type="submit">send</button>
+     </div>
+    </form>
+  </div>
+</body>
+</html>
